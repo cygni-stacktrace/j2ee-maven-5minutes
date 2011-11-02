@@ -4,6 +4,6 @@ import javax.ejb.Local;
 @Local
 public interface MyLocalSessionBeanLocal {
 
-	String wicked();
+	String now();
 
 }

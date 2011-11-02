@@ -21,8 +21,8 @@ public class MyRemoteSessionBean implements MyRemoteSessionBeanRemote {
     }
 
 	@Override
-	public String test() {
-    	return myLocalSessionBeanLocal.wicked();
+	public String getTime() {
+    	return myLocalSessionBeanLocal.now();
 	}
 
 }

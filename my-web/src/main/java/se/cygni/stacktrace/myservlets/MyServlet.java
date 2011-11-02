@@ -27,7 +27,6 @@ public class MyServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("doGet " + MyServlet.class.getName());
-		//response.getWriter().print("Hahahaha");
 	}
 
 	/**

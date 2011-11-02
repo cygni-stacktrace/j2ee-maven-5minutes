@@ -3,5 +3,5 @@ import javax.ejb.Remote;
 
 @Remote
 public interface MyRemoteSessionBeanRemote {
-	String test();
+	String getTime();
 }

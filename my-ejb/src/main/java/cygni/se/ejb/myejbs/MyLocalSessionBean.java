@@ -19,7 +19,7 @@ public class MyLocalSessionBean implements MyLocalSessionBeanLocal {
     }
 
 	@Override
-	public String wicked() {
+	public String now() {
 		return Calendar.getInstance().getTime().toString();
 	}
 
